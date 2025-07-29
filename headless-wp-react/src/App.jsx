@@ -5,7 +5,7 @@ export function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost/wp-json/wp/v2/posts') // Change to your WP URL
+    fetch('http://localhost/headless_wordpress/server/wp-json/wp/v2/posts') // Change to your WP URL
       .then(response => response.json())
       .then(data => {
         setPosts(data);
