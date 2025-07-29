@@ -4,11 +4,12 @@ function Home() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const perPage = 5;
 
   useEffect(() => {
     const fetchBlogPosts = async () => {
       try {
-        const response = await fetch('http://localhost/headless_wordpress/server/wp-json/wp/v2/posts'); // Replace with your actual API endpoint
+        const response = await fetch('http://localhost/headless_wordpress/server/wp-json/wp/v2/posts?per_page=${perPage}'); // Replace with your actual API endpoint
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -41,6 +42,26 @@ function Home() {
           <p>{post.content.rendered.replace(/<[^>]+>/g, '')}</p>
         </div>
       ))}
+
+      {/* Pagination Controls */}
+      <div>
+        <button
+          onClick={() => setPage((p) => Math.max(p - 1, 1))}
+          disabled={page === 1}
+        >
+          Previous
+        </button>
+
+        <span style={{ margin: "0 10px" }}>Page {page}</span>
+
+        <button
+          onClick={() => setPage((p) => p + 1)}
+          disabled={posts.length < perPage}
+        >
+          Next
+        </button>
+      </div>
+
     </div>
   );
 }
