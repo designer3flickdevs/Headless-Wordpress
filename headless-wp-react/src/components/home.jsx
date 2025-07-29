@@ -8,7 +8,7 @@ function Home() {
   useEffect(() => {
     const fetchBlogPosts = async () => {
       try {
-        const response = await fetch('YOUR_API_ENDPOINT_FOR_BLOG_POSTS'); // Replace with your actual API endpoint
+        const response = await fetch('http://localhost/headless_wordpress/server/wp-json/wp/v2/posts'); // Replace with your actual API endpoint
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -36,7 +36,7 @@ function Home() {
     <div>
       <h1>Blog Posts</h1>
       {posts.map(post => (
-        <div key={post.id}> {/* Use a unique key, e.g., post.id */}
+        <div key={post.id}> 
           <h2>{post.title}</h2>
           <p>{post.content}</p>
         </div>
