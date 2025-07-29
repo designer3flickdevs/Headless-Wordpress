@@ -10,7 +10,7 @@ function Home() {
   useEffect(() => {
     const fetchBlogPosts = async () => {
       try {
-        const response = await fetch('http://localhost/headless_wordpress/server/wp-json/wp/v2/posts?per_page=${perPage}&page=${page}'); // Replace with your actual API endpoint
+        const response = await fetch(`http://localhost/headless_wordpress/server/wp-json/wp/v2/posts?per_page=${perPage}&page=${page}`); // Replace with your actual API endpoint
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
