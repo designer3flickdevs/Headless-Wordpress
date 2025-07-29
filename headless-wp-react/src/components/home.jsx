@@ -5,7 +5,7 @@ function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [page, setPage] = useState(1);
-  const perPage = 3;
+  const perPage = 20;
 
   useEffect(() => {
     const fetchBlogPosts = async () => {
