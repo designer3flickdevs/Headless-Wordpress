@@ -5,7 +5,8 @@ export function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost/headless_wordpress/server/wp-json/wp/v2/posts') // Change to your WP URL
+    // fetch('http://localhost/headless_wordpress/server/wp-json/wp/v2/posts') // Change to your WP URL
+      fetch('https://flickdevs.com/wp-json/wp/v2/posts')
       .then(response => response.json())
       .then(data => {
         setPosts(data);
