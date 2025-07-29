@@ -4,6 +4,7 @@ function Home() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [page, setPage] = useState(1);
   const perPage = 5;
 
   useEffect(() => {
@@ -23,7 +24,7 @@ function Home() {
     };
 
     fetchBlogPosts();
-  }, []); // Empty dependency array ensures this runs once on mount
+  }, [page]); // Empty dependency array ensures this runs once on mount
 
   if (loading) {
     return <div>Loading blog posts...</div>;
