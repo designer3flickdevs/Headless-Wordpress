@@ -38,7 +38,8 @@ function Home() {
       {posts.map(post => (
         <div key={post.id}> 
           <h2>{post.title.rendered}</h2>
-          <p>{post.content.rendered}</p>
+          <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+          <p>{post.content.rendered.replace(/<[^>]+>/g, '')}</p>
         </div>
       ))}
     </div>
