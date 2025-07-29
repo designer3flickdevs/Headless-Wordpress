@@ -19,7 +19,7 @@ export function App() {
 
   return (
     <div className='App'>
-      <h1>WordPress Posts</h1>
+      <h1>WordPress Posts123</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
