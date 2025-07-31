@@ -38,7 +38,7 @@ function Home() {
 
   return (
     <div>
-      <button onclick={()=>setDisplay(!display)}>Click Me</button>
+      <button onClick={()=>setDisplay(!display)}>Click Me</button>
       {
         display ? <h1>test</h1> : null
       }
