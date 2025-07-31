@@ -34,7 +34,7 @@ function Home() {
     return <div>Error: {error.message}</div>;
   }
 
-  const [display, setDisplay] = useState(true);
+  const [display, setDisplay] = useState(true)
 
   return (
     <div>
