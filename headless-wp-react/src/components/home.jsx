@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Home() {
   const [posts, setPosts] = useState([]);
@@ -34,8 +34,14 @@ function Home() {
     return <div>Error: {error.message}</div>;
   }
 
+  const [display, setDisplay] = useState(false);
+
   return (
     <div>
+      <button onclick={()=>setDisplay(!display)}>Click Me</button>
+      {
+        display ? <h1>test</h1> : null
+      }
       <h1>Blog Posts</h1>
       {posts.map(post => (
         <div key={post.id}> 
