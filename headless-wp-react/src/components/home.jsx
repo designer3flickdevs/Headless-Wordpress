@@ -5,6 +5,7 @@ function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [page, setPage] = useState(1);
+  const [display, setDisplay] = useState(true);
   const perPage = 20;
 
   useEffect(() => {
@@ -34,7 +35,7 @@ function Home() {
     return <div>Error: {error.message}</div>;
   }
 
-  const [display, setDisplay] = useState(true)
+  
 
   return (
     <div>
