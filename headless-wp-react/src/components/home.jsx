@@ -35,8 +35,6 @@ function Home() {
     return <div>Error: {error.message}</div>;
   }
 
-  
-
   return (
     <div>
       <button onClick={()=>setDisplay(!display)}>Click Me</button>
@@ -52,7 +50,7 @@ function Home() {
       ))}
 
       {/* Pagination Controls */}
-      {/* <div>
+      <div>
         <button
           onClick={() => setPage((p) => Math.max(p - 1, 1))}
           disabled={page === 1}
@@ -68,7 +66,7 @@ function Home() {
         >
           Next
         </button>
-      </div> */}
+      </div>
 
     </div>
   );
