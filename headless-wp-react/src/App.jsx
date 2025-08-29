@@ -1,11 +1,10 @@
-// import Test from './components/test'
-import Posts from './components/pages/posts/index'
+import React from 'react';
+import Posts from './components/pages/posts/index';
 
 function App() {
   return (
-    // <Test />
     <Posts />
   )
 }
 
-export default App
+export default App;
