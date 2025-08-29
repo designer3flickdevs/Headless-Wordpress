@@ -1,4 +1,4 @@
-import Posts from './components/pages/posts'
+import Posts from './components/pages/Posts'
 // import Test from './components/test'
 
 function App() {
