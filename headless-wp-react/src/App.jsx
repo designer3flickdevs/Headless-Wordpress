@@ -1,5 +1,5 @@
 // import Test from './components/test'
-import Posts from './components/pages/posts'
+import Posts from './components/pages/posts/index'
 
 function App() {
   return (
