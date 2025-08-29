@@ -1,10 +1,9 @@
-import React from 'react';
-import Posts from '../components/pages/posts/index';
+import Test from './components/test'
 
 function App() {
   return (
-    <Posts />
+    <Test />
   )
 }
 
-export default App;
+export default App
