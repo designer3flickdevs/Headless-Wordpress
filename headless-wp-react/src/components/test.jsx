@@ -81,7 +81,7 @@ import React, { useState, useEffect } from 'react';
 
 
 export default function Test() {
-  const WP = process.env.REACT_APP_WP_API_URL || "https://your-wordpress-site.com";
+  const WP = process.env.REACT_APP_WP_API_URL || "http://localhost/headless_wordpress/server";
   const PAGE_SLUG = process.env.REACT_APP_WP_PAGE_SLUG || "landing-page"; // page slug in WP
 
   const [page, setPage] = useState(null);
