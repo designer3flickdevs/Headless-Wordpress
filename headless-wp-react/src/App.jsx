@@ -4,6 +4,7 @@ import Posts from './components/pages/Posts'
 function App() {
   return (
     <Posts />
+    // <Test />
   )
 }
 
