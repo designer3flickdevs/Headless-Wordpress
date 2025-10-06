@@ -7,7 +7,7 @@ const Header = () => {
 
   useEffect(() => {
     axios
-      .get("https://yourdomain.com/wp-json/menus/v1/menus/primary")
+      .get("http://localhost/headless_wordpress/server/wp-json/menus/v1/menus/primary")
       .then((res) => setMenuItems(res.data.items))
       .catch((err) => console.error(err));
   }, []);
