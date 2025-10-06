@@ -47,6 +47,12 @@
    Home Page Section Styling
    ============================ */
 
+#root {
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
 .home-section {
   background-color: #0e1525;
   color: #fff;
@@ -65,7 +71,7 @@
 
 .home-section h2 span {
   background: linear-gradient(90deg, #ff5757, #ff914d);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

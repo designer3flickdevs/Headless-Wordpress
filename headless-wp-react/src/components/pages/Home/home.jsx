@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section className="home-section">
       <h2>
-        Do you want to <span>generate more traffic</span> to your website? We
+        Do you want to generate more traffic to your website? We
         know the solution.
       </h2>
 
