@@ -75,11 +75,6 @@ import React, { useState, useEffect } from 'react';
 // export default Test;
 
 
-
-
-
-
-
 export default function Test() {
   const WP = process.env.REACT_APP_WP_API_URL || "http://localhost/headless_wordpress/server";
   const PAGE_SLUG = process.env.REACT_APP_WP_PAGE_SLUG || "landing-page"; // page slug in WP
@@ -124,7 +119,7 @@ export default function Test() {
   async function handleSubmit(e) {
     e.preventDefault();
     setSentMsg(null);
-    if (!name || !email || !message) return setSentMsg({ type: 'error', text: 'બધા ફીલ્ડ ભરો.' });
+    if (!name || !email || !message) return setSentMsg({ type: 'error', text: 'Fill all the field.' });
 
     setSending(true);
     try {
