@@ -1,12 +1,9 @@
-// import Posts from './components/pages/Posts'
-// import Test from './components/test'
-import Header from './components/pages/Header'
+import React from "react";
+import Home from "./components/pages/Home/home";
 
 function App() {
   return (
-    // <Posts />
-    // <Test />
-    <Header />
+    <Home />
   )
 }
 
