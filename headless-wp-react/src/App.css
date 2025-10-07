@@ -78,7 +78,7 @@ body{
 
 .home-section h2 span {
   background: linear-gradient(90deg, #ff5757, #ff914d);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
