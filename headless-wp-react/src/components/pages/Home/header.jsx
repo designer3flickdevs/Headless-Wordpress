@@ -40,7 +40,7 @@ const Header = () => {
           {/* Theme toggle icon */}
           <li>
             <button className="p-2 rounded-full bg-[#1e273b] hover:bg-[#2c3650] transition">
-              <Sun size={18} />
+              <Moon size={18} />
             </button>
           </li>
         </ul>
