@@ -8,8 +8,9 @@ const Home = () => {
       <Header />
       <section className="home-section">
         <h2>
-          Do you want to <span>generate more traffic</span> to your website? We
+          Do you want to <span>generate more traffic</span> to your website? We test
           know the solution.
+          gjjkkjkjkjkj dfhgfh
         </h2>
 
         <div className="services-grid">
