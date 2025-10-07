@@ -8,9 +8,7 @@ const Home = () => {
       <Header />
       <section className="home-section">
         <h2>
-          Do you want to <span>generate more traffic</span> to your website? We test
-          know the solution.
-          gjjkkjkjkjkj dfhgfh
+          Do you want to <span>generate more traffic</span> to your website? We know the solution.
         </h2>
 
         <div className="services-grid">
@@ -18,8 +16,7 @@ const Home = () => {
             <div className="service-icon">🧪</div>
             <h3>Analytics and Research</h3>
             <p>
-              We also provide tangible results and measurable long-term value
-              business.
+              We also provide tangible results and measurable long-term value business.
             </p>
           </div>
 
@@ -27,8 +24,7 @@ const Home = () => {
             <div className="service-icon">✏️</div>
             <h3>Copywriting</h3>
             <p>
-              We also provide tangible results and measurable long-term value
-              business.
+              We also provide tangible results and measurable long-term value business.
             </p>
           </div>
 
@@ -36,8 +32,7 @@ const Home = () => {
             <div className="service-icon">💰</div>
             <h3>Sales growth</h3>
             <p>
-              We also provide tangible results and measurable long-term value
-              business.
+              We also provide tangible results and measurable long-term value business.
             </p>
           </div>
         </div>
