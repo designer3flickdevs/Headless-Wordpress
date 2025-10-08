@@ -6,6 +6,7 @@
     justify-items: center;
     overflow: hidden;
     word-wrap: break-word;
+    place-self: flex-start;
 }
 .lifestyle-header {
     max-width: 1200px;
