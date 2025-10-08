@@ -1,11 +1,9 @@
 import React from "react";
-
+import Header from "./components/header";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello, Headless WordPress with React!</h1>
-    </div>  
+    <Header />  
   )
 }
 
