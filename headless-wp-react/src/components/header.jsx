@@ -15,11 +15,10 @@ const Header = () => {
   }, []);
 
   return (
+    <>
+    {/* Header */}
     <header className="lifestyle-header flex items-center justify-between px-10 py-5 bg-[#0e1525] text-white">
-      {/* Logo */}
       <img src={logo} alt="Logo" />
-
-      {/* Navigation */}
       <nav>
         <ul className="flex items-center gap-6 text-sm font-semibold">
           {menuItems.map((item) => (
@@ -42,6 +41,13 @@ const Header = () => {
         </ul>
       </nav>
     </header>
+    
+    {/* Hero Banner */}
+    <div backgroundImage="url('https://via.placeholder.com/1500x500')" className="h-64 bg-cover bg-center flex items-center justify-center">
+        <h1>Header Component</h1>
+    </div>
+    </>
+    
   );
 };
 
