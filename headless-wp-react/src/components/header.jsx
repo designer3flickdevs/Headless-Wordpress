@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Sun } from "lucide-react";
-import logo from "./assets/logo.webp";
+import logo from "../assets/logo.webp";
 
 const Header = () => {
   const [menuItems, setMenuItems] = useState([]);
