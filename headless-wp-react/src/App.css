@@ -41,3 +41,16 @@
   color: #888;
 }
 
+/* Header */
+
+#root {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    justify-items: center;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+header{
+  max-width: 1200px;
+}

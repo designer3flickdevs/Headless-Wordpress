@@ -17,7 +17,6 @@ const Header = () => {
     <header className="flex items-center justify-between px-10 py-5 bg-[#0e1525] text-white">
       {/* Logo */}
       <img src={logo} alt="Logo" />
-      <h1 className="text-3xl font-bold">Margin</h1>
 
       {/* Navigation */}
       <nav>
@@ -39,22 +38,8 @@ const Header = () => {
               )}
             </li>
           ))}
-          {/* Theme toggle icon */}
-          <li>
-            <button className="p-2 rounded-full bg-[#1e273b] hover:bg-[#2c3650] transition">
-              <Sun size={18} />
-            </button>
-          </li>
         </ul>
       </nav>
-
-      {/* CTA button */}
-      <a
-        href="tel:+6369953959"
-        className="bg-gradient-to-r from-orange-400 to-pink-500 text-white px-5 py-3 rounded-md font-bold shadow-md"
-      >
-        Call us for Free<br />63-995-3959
-      </a>
     </header>
   );
 };
