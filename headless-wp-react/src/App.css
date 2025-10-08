@@ -9,11 +9,12 @@
     place-self: flex-start;
 }
 .lifestyle-header {
-    max-width: 1200px;
+    max-width: 1260px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 10px 30px;
 }
 .lifestyle-header ul {
     display: flex;
