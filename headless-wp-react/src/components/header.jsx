@@ -16,6 +16,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between px-10 py-5 bg-[#0e1525] text-white">
       {/* Logo */}
+      <img src={logo} alt="Logo" />
       <h1 className="text-3xl font-bold">Margin</h1>
 
       {/* Navigation */}
