@@ -1,9 +1,11 @@
 import React from "react";
-import Home from "./components/pages/Home/home";
+
 
 function App() {
   return (
-    <Home />
+    <div className="App">
+      <h1>Hello, Headless WordPress with React!</h1>
+    </div>  
   )
 }
 
