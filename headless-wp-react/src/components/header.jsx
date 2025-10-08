@@ -43,7 +43,7 @@ const Header = () => {
     </header>
     
     {/* Hero Banner */}
-    <div backgroundImage="url('https://via.placeholder.com/1500x500')" className="h-64 bg-cover bg-center flex items-center justify-center">
+    <div backgroundImage="url('https://zf2xqj.yourbrand.studio/files/dynamicContent/sites/zf2xqj/images/en/webpage_12/m5p6bgzu/element_280/rwdMode_1/2400x800/Header_Home.webp')" className="h-64 bg-cover bg-center flex items-center justify-center">
         <h1>Header Component</h1>
     </div>
     </>
