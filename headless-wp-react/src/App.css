@@ -7,10 +7,15 @@
     overflow: hidden;
     word-wrap: break-word;
 }
-header {
+.lifestyle-header {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+.lifestyle-header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
 }

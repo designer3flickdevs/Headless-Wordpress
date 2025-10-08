@@ -15,7 +15,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="flex items-center justify-between px-10 py-5 bg-[#0e1525] text-white">
+    <header className="lifestyle-header flex items-center justify-between px-10 py-5 bg-[#0e1525] text-white">
       {/* Logo */}
       <img src={logo} alt="Logo" />
 
