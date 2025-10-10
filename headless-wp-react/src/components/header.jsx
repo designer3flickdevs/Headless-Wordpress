@@ -26,7 +26,7 @@ const Header = () => {
               <a href={item.url}>{item.title}</a>
               {/* Dropdown (optional) */}
               {item.children?.length > 0 && (
-                <ul className="absolute hidden group-hover:block bg-[#1a2235] p-3 rounded-lg mt-2 shadow-lg">
+                <ul className="absolute hidden group-hover:block bg-black p-3 rounded-lg mt-2 shadow-lg">
                   {item.children.map((child) => (
                     <li key={child.ID}>
                       <a href={child.url} className="block py-1 px-3 hover:text-blue-400">
